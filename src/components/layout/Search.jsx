@@ -2,7 +2,7 @@ import React from 'react';
 import "../../css_components/layout/Search.css"
 
 export default () => (
-    <section className='section'>
+    <section className='section-search'>
         <div className='search-box'>
             <header>
                 <h1 className='tagline'>Lorem Ipsum placeholder</h1>
