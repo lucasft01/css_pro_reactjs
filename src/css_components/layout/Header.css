@@ -1,0 +1,33 @@
+.header {
+  /* display: none; */
+  margin: 40px auto;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+}
+
+.header .logo img {
+  max-width: 150px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: red;
+}
+
+.header-content {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
