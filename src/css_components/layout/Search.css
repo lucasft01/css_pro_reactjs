@@ -1,4 +1,4 @@
-.section {
+.section-search {
   /* float: left; */
   width: 100%;
 }
@@ -51,21 +51,6 @@
   font-size: 20px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
-}
-
-/* BREACKPOINT MÁXIMOS */
-@media(max-width: 767.9px){
-    .estatisticas{
-        flex-direction: column;
-    }
-    .estatisticas-item{
-        min-width: 90%;
-    }
-    .estatisticas-item:not(:last-of-type){
-        margin-bottom: 15px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid #ccc;
-    }
 }
 
 /* BREACKPOINT MÍNIMOS */
